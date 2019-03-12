@@ -54,7 +54,7 @@ public class Example4 {
 	}
 
 	static int search3(int[] a, int value, int start, int end) {
-int middle = (start + end) / 2;
+		int middle = (start + end) / 2;
 		
 		if(start > end) return -1;
 		
